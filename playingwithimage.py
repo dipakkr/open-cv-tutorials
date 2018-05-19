@@ -32,3 +32,14 @@ cv2.waitKey()
 
 cv2.imshow('VALUE CHANNEL',hsv_image[:,:,2])
 cv2.waitKey()
+
+# Split the images in R,G,B
+B,G,R = cv2.split(image)
+
+print B.shape
+cv2.imshow("BLUE",B)
+cv2.imshow("GREEN",G+100)
+cv2.imshow("RED",R)
+cv2.waitKey()
+
+
