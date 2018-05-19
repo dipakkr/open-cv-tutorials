@@ -42,4 +42,12 @@ cv2.imshow("GREEN",G+100)
 cv2.imshow("RED",R)
 cv2.waitKey()
 
+zeroes = np.zeros(image.shape[:2], dtype="uint8")
 
+cv2.imshow("RED",cv2.merge([zeroes,zeroes,R]))
+cv2.imshow("Green",cv2.merge([zeroes,G,zeroes]))
+cv2.imshow("Blue",cv2.merge([B,zeroes,zeroes]))
+
+cv2.waitKey()
+
+image.shape[:2]
