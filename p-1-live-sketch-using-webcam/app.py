@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-import matplotlib.pyplot as plt
 
 # Initialize the web cam, store the image
 
@@ -31,4 +30,7 @@ while True:
 
 # Release the camera and close windows
 capture.release()
-cv2.destroyAllWindows()g
+cv2.destroyAllWindows()
+
+
+# Play with the returned video feed by changing the return statement
