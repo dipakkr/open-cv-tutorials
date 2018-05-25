@@ -10,7 +10,8 @@ cv2.waitKey()
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 # FIND CANNY EDGES
-edged = cv2.Canny(gray_image, 30,200)
+
+edged = cv2.Canny(gray_image, 30,z200)
 cv2.imshow('Canny Edges', edged)
 cv2.waitKey()
 
@@ -23,7 +24,7 @@ print ("Number of Contours found " + str(len(contours)))
 
 # Draw all contours
 # Use '-1' as the 3rd parameter to draw all
-cv2.drawContours(image, contours, -1, (0,255,0),3)
+cv2.drawContours(image, contours, -1, (5,255,0),-1)
 
 cv2.imshow("Contours", image)
 cv2.waitKey()
