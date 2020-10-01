@@ -5,6 +5,7 @@ This repository contains basic examples of operation used in computer vision lik
 
 ###  Topics Covered
   - **Image Manipulation** : Transformation, Rotation, Scaling, Resizing, Image Pyramids, Cropping, Blurring, Arithmentic operation, Bitwise Operation, Blurring, Sharpening, Edge Detection, Perspective Transformation
+  -**working with histograms
   
   - **Image Segmentation** : Object detection, Defining the shape of the objects, contours, Shape identification, Line Detection, Circle detection, Blob detection.
   
